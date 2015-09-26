@@ -12,11 +12,7 @@
             <next>
               <block type="movement_left" id="5">
                 <next>
-                  <block type="movement_leftmotor" id="6" inline="true">
-                    <next>
-                      <block type="movement_stop" id="25"></block>
-                    </next>
-                  </block>
+                  <block type="movement_stop" id="25"></block>
                 </next>
               </block>
             </next>
@@ -25,6 +21,7 @@
       </block>
     </next>
   </block>
+  <block type="movement_leftmotor" id="6" inline="true" x="256" y="164"></block>
   <block type="math_single" id="4" inline="true" x="229" y="241">
     <field name="OP">NEG</field>
   </block>
