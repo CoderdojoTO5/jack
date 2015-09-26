@@ -3,8 +3,8 @@
     <next>
       <block type="robot_delay" id="2" inline="true">
         <value name="DELAY">
-          <block type="math_single" id="4" inline="true">
-            <field name="OP">NEG</field>
+          <block type="math_number" id="32">
+            <field name="NUM">4000</field>
           </block>
         </value>
         <next>
@@ -24,5 +24,8 @@
         </next>
       </block>
     </next>
+  </block>
+  <block type="math_single" id="4" inline="true" x="229" y="241">
+    <field name="OP">NEG</field>
   </block>
 </xml>
